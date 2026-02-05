@@ -11,7 +11,7 @@ export const Card = ({ name, age, description, src }) => { // Corrected function
         </div>
         <img 
           src={src || "https://via.placeholder.com/300x200?text=No+Image"} 
-          className="card-img-top" 
+          className="card-img-top object-fit-cover mt-3 mb-3 rounded" 
           alt="miami"
         />
         <div className="card-body">

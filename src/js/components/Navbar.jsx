@@ -26,9 +26,6 @@ export const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -61,9 +58,6 @@ export const Navbar = () => {
                   </a>
                 </li>
               </ul>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link disabled">Disabled</a>
             </li>
           </ul>
         </div>

@@ -6,14 +6,14 @@ import { Footer } from "./Footer";
 
 //create your first component
 export const Home = () => {
-
+// i can just keep adding more item to this but make sure to also add it on line 26 for it to owrk
   const [people, setPeople] = useState([
-    { name: "Alice", age: 30, Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ex." },
-	{ name: "Bob", age: 25, Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ex." },
-	{ name: "Charlie", age: 35, Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ex." },
-	{ name: "Diana", age: 28, Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ex.", src: "https://images.unsplash.com/photo-1513735539099-cf6e5d559d82?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFub3JhbWF8ZW58MHx8MHx8fDA%3D" },
-  { name: "Ethan", age: 32, Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ex.", src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuiVVAUhUDwAVTciSjHtGZYIa90g81vgwb8A&s" },
-  { name: "Fiona", age: 27, Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ex.", src: "https://as2.ftcdn.net/v2/jpg/01/07/82/55/1000_F_107825577_lYRRtJEDqwuvFoKxBxdmyqIeGYgxDBCo.jpg" },
+    { name: "Alice", age: 30, Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ex.", src:"https://as2.ftcdn.net/v2/jpg/01/91/79/33/1000_F_191793364_6ZAWwd1nVmtIg6RK2NMy7eOiBdJH0hPw.jpg" },
+	{ name: "Bob", age: 25, Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ex.", src: "https://cdn.realisticasia.com/photos/Phong%20blogs/Bali%20Travel%20Guide/Nusa%20Panida,%20Bali.jpg"},
+	{ name: "Charlie", age: 35, Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ex.", src: "https://dynamic-media.tacdn.com/media/photo-o/2f/de/45/49/caption.jpg?f=webp&w=1000&h=700"},
+	{ name: "Diana", age: 28, Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ex.", src: "https://dynamic-media.tacdn.com/media/photo-o/30/4e/c2/b7/caption.jpg?f=webp&w=1000&h=700" },
+  { name: "Ethan", age: 32, Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ex.", src: "https://i0.wp.com/www.lonelyspeck.com/wp-content/uploads/2019/09/alabama-hills-at-moonrise.jpg?w=525&ssl=1" },
+  { name: "Fiona", age: 27, Description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, ex.", src: "https://as2.ftcdn.net/v2/jpg/01/32/62/81/1000_F_132628105_OBMh7kfO0JUqaDHJciEna0caOtAQSdah.jpg" },
   ]);
   
   return (
